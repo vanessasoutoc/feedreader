@@ -73,10 +73,4 @@ class SimplePieItemsAdapter extends ItemAdapter implements ItemAdapterInterface
     {
         return $this->data;
     }
-
-    public function count()
-    {
-        return count($this->data);
-    }
-
 }
